@@ -2,7 +2,7 @@ import React from "react"
 
 const navbar = () => {
 	return (
-		<header class="bg-white">
+		<header class="bg-gray-100">
 			<div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
 				<div class="flex h-16 items-center justify-between">
 					<div class="flex-1 md:flex md:items-center md:gap-12  ">
@@ -17,8 +17,8 @@ const navbar = () => {
 							<span class="sr-only">Home</span>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
-								width="50"
-								height="50"
+								width="40"
+								height="40"
 								fill="currentColor"
 								class="bi bi-fuel-pump-fill "
 								viewBox="0 0 16 16"
@@ -127,7 +127,7 @@ const navbar = () => {
 								<div class="hidden sm:flex">
 									<a
 										class="rounded-md bg-gray-900 px-5 py-2.5 text-sm font-medium text-teal-600 cursor-pointer transition-all 
-										bg-gray-300 text-black px-6 py-2 rounded-lg
+										bg-gray-300 text-white px-6 py-2 rounded-lg
 										border-green-400
 										border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px]
 										active:border-b-[2px] active:brightness-90 active:translate-y-[2px] hover:shadow-xl hover:shadow-green-300 shadow-green-300 active:shadow-none"
